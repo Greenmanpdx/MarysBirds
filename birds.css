@@ -1,0 +1,9 @@
+#titleFrame{
+  width: 80%;
+  border: black 2p;
+}
+
+.profilePic {
+    width: 20%;
+    heigth: auto;
+}
