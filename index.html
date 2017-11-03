@@ -4,11 +4,127 @@
     <meta charset="UTF-8">
     <title>Mary's Birdy Bording School</title>
     <link rel="stylesheet" type="text/css" href="birds.css">
+	<script src="modernizr.custom.js"></script>
+	
 </head>
 <body>
-  <div class="titleFrame">
-    <img id="profilePic" src="images\upsidedownbird.png">
-    <h1 id="title">Mary's Bird Sanctuary</h1>
-  </div>
+	<div id="mainView">
+	  <div id="titleFrame">
+		
+		<img id="profilePic" src="images\upsidedownbird.png">
+		<img id="titlePic" src="images\title.svg">
+	  </div>
+	
+		<div id="gallery">
+			
+			<ul id="rb-grid" class="rb-grid clearfix">
+				
+				<li class="rb-span-2"> 
+					<h1 class="birdName">Rambo</h1><span class="rb-temp"><img class="birdPic " src="images\rambo.jpg"></span>
+					
+					<div class="rb-overlay">
+						<span class="rb-close">close</span>
+						<div class="rb-profile">
+							<div><span class="rb-bird">Rambo</span><span><img class="expandedBirdPic" src="images\rambo.jpg"></span></div>
+							<div><span>Species: Macaw</span><span></span></div>
+							<div><span>Stuff</span></div>
+						</div>
+					</div>
+			
+				</li>
+				<li ">
+					<h1 class="birdName">Pheonix</h1><span class="rb-temp"><img class="birdPic" src="images\pheonix.jpg"></span>
+					<div class="rb-overlay">
+						<span class="rb-close">close</span>
+						<div class="rb-profile">
+							<div><span class="rb-bird">Pheonix</span><span><img class="expandedBirdPic" src="images\pheonix.jpg"></span></div>
+							<div><span>Species: Macaw</span><span></span></div>
+							<div><span>Stuff</span></div>
+						</div>
+				</li>
+				
+				<li >
+					<h1 class="birdName">Sam</h1><span class="rb-temp">			
+					<img class="birdPic" src="images\bird2.jpg"></span>
+					<div class="rb-overlay">
+						<span class="rb-close">close</span>
+						<div class="rb-profile">
+							<div><span class="rb-bird">Sam</span><span><img class="expandedBirdPic" src="images\bird2.jpg"></span></div>
+							<div><span>Species:</span><span></span></div>
+							<div><span>Stuff</span></div>
+						</div>
+					</div>
+				</li>
+				
+				<li >
+					<h1 class="birdName">Pepper</h1><span class="rb-temp">
+					
+					<img class="birdPic" src="images\bird3.jpg"></span>
+					<div class="rb-overlay">
+						<span class="rb-close">close</span>
+						<div class="rb-profile">
+							<div><span class="rb-bird">Pepper</span><span><img class="expandedBirdPic" src="images\bird3.jpg"></span></div>
+							<div><span>Species: </span><span></span></div>
+							<div><span>Stuff</span></div>
+						</div>
+					</div>
+				</li>
+				
+				<li ">
+					<h1 class="birdName">Max</h1><span class="rb-temp">
+					
+					<img class="birdPic" src="images\bird4.jpg"></span>
+					<div class="rb-overlay">
+						<span class="rb-close">close</span>
+						<div class="rb-profile">
+							<div><span class="rb-bird">Max</span><span><img class="expandedBirdPic" src="images\bird4.jpg"></span></div>
+							<div><span>Species: Macaw</span><span></span></div>
+							<div><span>Stuff</span></div>
+						</div>
+					</div>
+				</li>
+				
+				<li >
+					<h1 class="birdName">Bailey</h1><span class="rb-temp">
+					
+					<img class="birdPic" src="images\bird5.jpg"></span>
+					<div class="rb-overlay">
+						<span class="rb-close">close</span>
+						<div class="rb-profile">
+							<div><span class="rb-bird">Bailey</span><span><img class="expandedBirdPic" src="images\bird5.jpg"></span></div>
+							<div><span>Species: Macaw</span><span></span></div>
+							<div><span>Stuff</span></div>
+						</div>
+					</div>
+				</li>
+				
+				<li class="rb-span-2">
+					<h1 class="birdName">Birdy</h1><span class="rb-temp">
+					
+					<img class="birdPic" src="images\bird6.jpg"></span>
+					<div class="rb-overlay">
+						<span class="rb-close">close</span>
+						<div class="rb-profile">
+							<div><span class="rb-bird">Birdy</span><span><img class="expandedBirdPic" src="images\bird6.jpg"></span></div>
+							<div><span>Species: Macaw</span><span></span></div>
+							<div><span>Stuff</span></div>
+						</div>
+					</div>
+				</li>
+			</ul>	
+		</div>
+	
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="jquery.fittext.js"></script>
+		<script src="boxgrid.js"></script>
+		<script>
+			$(function() {
+				Boxgrid.init();				
+			});
+		</script>
+	
+	</script>
 </body>
+
 </html>
